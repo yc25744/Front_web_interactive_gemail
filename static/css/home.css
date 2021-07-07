@@ -1,0 +1,124 @@
+body {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-image: url('../img/sadaimage.jpeg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 40px;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px blue;
+}
+
+.sub-header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:purple;
+}
+.site-center {
+    display: block;
+    width: 100%;
+}
+
+.email-form {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 80px;
+    justify-content: center;
+}
+
+.buttons {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin: 15px;
+    margin-bottom: 25px;
+
+}
+
+.label {
+    text-align: center;
+}
+
+
+.submit-btn, button {
+    color: white;
+    font-size: 18px;;
+    background: grey;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.submit-btn:hover, button:hover {
+    background: rgba(255, 0, 0, .85);
+}
+
+.footnote {
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0 0 15px #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    background: rgba(90, 90, 90, .6);
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.success {
+    color: rgb(0, 255, 0);
+}
+
+.error {
+    color: rgba(255, 70, 70);
+}
